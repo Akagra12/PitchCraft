@@ -269,7 +269,7 @@ Errors clear as the user types. The submit button is disabled while saving.
 
 ### Quick Start
 ```bash
-git clone https://github.com/YOUR_USERNAME/PitchCraft.git
+git clone https://github.com/Akagra12/PitchCraft.git
 cd PitchCraft
 npm install
 npx expo start

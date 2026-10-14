@@ -127,7 +127,7 @@ The result is labeled **"Mock AI Score"** and **"Mock AI Feedback"** with a disc
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/PitchCraft.git
+git clone https://github.com/Akagra12/PitchCraft.git
 cd PitchCraft
 
 # Install dependencies
