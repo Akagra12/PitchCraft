@@ -1,7 +1,24 @@
-import assert from 'node:assert/strict';
 import { evaluateIdea } from '../src/services/evaluator';
 import { Idea, SortOption } from '../src/types/Idea';
 import { SEED_IDEAS } from '../src/data/seedIdeas';
+
+const assert = {
+  strictEqual(actual: any, expected: any, msg?: string) {
+    if (actual !== expected) {
+      throw new Error(msg || `Expected ${JSON.stringify(expected)}, got ${JSON.stringify(actual)}`);
+    }
+  },
+  ok(value: any, msg?: string) {
+    if (!value) {
+      throw new Error(msg || `Assertion failed: value is falsy`);
+    }
+  },
+  deepStrictEqual(actual: any, expected: any, msg?: string) {
+    if (JSON.stringify(actual) !== JSON.stringify(expected)) {
+      throw new Error(msg || `Expected ${JSON.stringify(expected)}, got ${JSON.stringify(actual)}`);
+    }
+  },
+};
 
 console.log('🚀 Running PitchCraft Automated Test Suite...\n');
 
