@@ -180,17 +180,14 @@ npm run typecheck
 ### Option A: EAS Build (Recommended)
 
 ```bash
-# Install EAS CLI
-npm install -g eas-cli
-
-# Log in to your Expo account
-eas login
-
-# Build the APK (preview profile)
-eas build --platform android --profile preview
-
-# After the build completes, download the APK from the URL provided
+# Build the APK via EAS CLI (preview profile)
+npx eas-cli build --platform android --profile preview
 ```
+
+**Official Expo Build Page:**
+👉 [https://expo.dev/accounts/akagra1/projects/PitchCraft/builds/667ca20d-62eb-4dee-ac80-7569ec4db8c1](https://expo.dev/accounts/akagra1/projects/PitchCraft/builds/667ca20d-62eb-4dee-ac80-7569ec4db8c1)
+
+From this link, you can install the APK directly on Android via QR code or download the standalone `.apk` file.
 
 ### Option B: Local APK Build
 

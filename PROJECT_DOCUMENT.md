@@ -279,10 +279,11 @@ Scan the QR code with Expo Go to run on your phone.
 
 ### Build APK
 ```bash
-npm install -g eas-cli
-eas login
-eas build --platform android --profile preview
+npx eas-cli build --platform android --profile preview
 ```
+
+**Official Expo Build & APK Download:**
+`https://expo.dev/accounts/akagra1/projects/PitchCraft/builds/667ca20d-62eb-4dee-ac80-7569ec4db8c1`
 
 ---
 
